@@ -1,65 +1,48 @@
-#Blackjack in Julia
-Blackjack is a popular card game where the player aims to get a score closer to 21 than the dealer without exceeding this value.
-               
-![image](https://github.com/user-attachments/assets/7a699bc4-aaac-40d5-936f-c6706a8398cb)
+# Blackjack in Julia<br>
+Blackjack is a popular card game where the player aims to get a score closer to 21 than the dealer without exceeding this value.<br>
 
-Game Description
-Game Objective: Get a score closer to 21 than the dealer.
+ ## Game Description
+### Game Objective: Get a score closer to 21 than the dealer.<br>
 
-Cards: Cards 2-10 are worth their face value. Jack, Queen, and King are worth 10 points. Ace can be worth 1 or 11 points.
+Cards: Cards 2-10 are worth their face value. Jack, Queen, and King are worth 10 points. Ace can be worth 1 or 11 points.<br>
 
-Gameplay: The player and dealer each receive two cards. The player sees one of the dealer's cards.
+Gameplay: The player and dealer each receive two cards. The player sees one of the dealer's cards.<br>
 
-Player's Turn: The player can draw cards or stand.
+Player's Turn: The player can draw cards or stand.  <br>                                                       
+                                                                                                           
+Dealer's Turn: The dealer must draw cards until they reach at least 17 points.      <br>                      
+                                                                                                           
+Result: The player with the higher score without exceeding 21 wins.    <br>                                     
+                                                                                                           
+## Features                                                                                              
+Balance: The player starts with a set balance and can place bets on individual rounds.          <br>         
 
-Dealer's Turn: The dealer must draw cards until they reach at least 17 points.
+Error Handling: The game handles incorrect input and invalid bets.<br>
 
-Result: The player with the higher score without exceeding 21 wins.
+Game Continuation: After each round, the player can choose to continue or end the game.<br>
 
-Features
-Balance: The player starts with a set balance and can place bets on individual rounds.
-
-Error Handling: The game handles incorrect input and invalid bets.
-
-Game Continuation: After each round, the player can choose to continue or end the game.
-
-Motivation
-I wrote this game to practically apply my knowledge of the Julia language. It was my first larger application in Julia, which I created a few months ago.
-
-Technologies and Skills
-During the development of this project, I developed skills in the following areas:
-
-Julia Programming: I learned the basics of the Julia language, including data types, control structures, functions, and modules.
-
-Error Handling: I learned how to handle incorrect input and exceptions in Julia.
-
-Code Structure: I understood the importance of a readable and organized code structure using modules and functions.
-
-Card Game Logic: I implemented the logic of the Blackjack game, including shuffling the deck, dealing cards, and determining the outcome.
+## Motivation
+I wrote this game to practically apply my knowledge of the Julia language. It was my first larger application in Julia, which I created a few months ago.<br>
 
 
-How to Build and Run the Game
+## How to Build and Run the Game<br>
 
-first install julia in your terminal
+### first install julia in your terminal<br>
 
-Windows:
-winget install julia -s msstore
+ Windows:
+winget install julia -s msstore<br>
 
-Mac:
-curl -fsSL https://install.julialang.org | sh
+ Mac:
+curl -fsSL https://install.julialang.org | sh<br>
 
-Navigate to the project directory:
+### Navigate to the project directory:
+cd Blackjack<br>
 
-cd Blackjack
-Run Julia with the project:
+### Run Julia with the project:
+julia --project=.<br>
 
-julia
-julia --project=.
-Load the Blackjack module:
+### Load the Blackjack module:
+using Blackjack<br>
 
-julia
-using Blackjack
-Start the game:
-
-julia
-play()
+### Start the game:
+play()<br>
