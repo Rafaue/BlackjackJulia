@@ -1,13 +1,14 @@
 #Blackjack in Julia
 Blackjack is a popular card game where the player aims to get a score closer to 21 than the dealer without exceeding this value.
-               _
-   _       _ _(_)_     |x
-  (_)     | (_) (_)    |Game Description
-   _ _   _| |_  __ _   |Game Objective: Get a score closer to 21 than the dealer.
-  | | | | | | |/ _` |  |
-  | | |_| | | | (_| |  |Cards: Cards 2-10 are worth their face value. Jack, Queen, and King are worth 10 points. Ace can be worth 1 or 11 points.
- _/ |\__'_|_|_|\__'_|  |
-|__/                   |Gameplay: The player and dealer each receive two cards. The player sees one of the dealer's cards.
+               
+![image](https://github.com/user-attachments/assets/7a699bc4-aaac-40d5-936f-c6706a8398cb)
+
+Game Description
+Game Objective: Get a score closer to 21 than the dealer.
+
+Cards: Cards 2-10 are worth their face value. Jack, Queen, and King are worth 10 points. Ace can be worth 1 or 11 points.
+
+Gameplay: The player and dealer each receive two cards. The player sees one of the dealer's cards.
 
 Player's Turn: The player can draw cards or stand.
 
