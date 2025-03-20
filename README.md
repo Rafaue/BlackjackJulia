@@ -1,7 +1,7 @@
 #Blackjack in Julia
 Blackjack is a popular card game where the player aims to get a score closer to 21 than the dealer without exceeding this value.
                _
-   _       _ _(_)_     |
+   _       _ _(_)_     |x
   (_)     | (_) (_)    |Game Description
    _ _   _| |_  __ _   |Game Objective: Get a score closer to 21 than the dealer.
   | | | | | | |/ _` |  |
