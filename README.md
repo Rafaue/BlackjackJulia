@@ -29,20 +29,20 @@ I wrote this game to practically apply my knowledge of the Julia language. It wa
 
 ### first install julia in your terminal<br>
 
- Windows:
-winget install julia -s msstore<br>
+ Windows:<br>
+```winget install julia -s msstore```<br>
 
- Mac:
-curl -fsSL https://install.julialang.org | sh<br>
+ Mac:<br>
+```curl -fsSL https://install.julialang.org | sh```<br>
 
 ### Navigate to the project directory:
-cd Blackjack<br>
+```cd Blackjack```<br>
 
 ### Run Julia with the project:
-julia --project=.<br>
+```julia --project=.```<br>
 
 ### Load the Blackjack module:
-using Blackjack<br>
+```using Blackjack```<br>
 
 ### Start the game:
-play()<br>
+```play()```<br>
