@@ -50,7 +50,6 @@ curl -fsSL https://install.julialang.org | sh
 
 Navigate to the project directory:
 
-bash
 cd Blackjack
 Run Julia with the project:
 
